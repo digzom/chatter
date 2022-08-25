@@ -49,7 +49,8 @@ defmodule Chatter.MixProject do
       {:gettext, "~> 0.18"},
       {:wallaby, "~> 0.30.0", runtime: false, only: :test},
       {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+      {:ex_machina, "~> 2.7.0", only: :test}
     ]
   end
 
